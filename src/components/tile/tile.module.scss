@@ -1,0 +1,18 @@
+@import '@styles';
+
+.tile {
+  padding: 24px;
+  @include size(100%);
+  background-color: var(--white);
+}
+
+.tileTitle {
+  @include text(16px, var(--white),  19px, normalm, 500);
+  color: var(--gray);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.tileContent {
+  background-color: var(--white);
+}

@@ -1,0 +1,19 @@
+@mixin text(
+  $fontSize: 16px,
+  $color: var(--black),
+  $lineHeight: 23px,
+  $fontStyle: normal,
+  $fontWeight: 400
+  ) {
+    font-family: 'Inter';
+    font-size: $fontSize;
+    color: $color;
+    line-height: $lineHeight;
+    font-style: $fontStyle;
+    font-weight: $fontWeight;
+}
+
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}

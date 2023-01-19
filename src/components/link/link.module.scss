@@ -1,0 +1,5 @@
+@import '@styles';
+
+.link {
+  @include text(20px, var(--blue-1), 29px, normal, 500);
+}

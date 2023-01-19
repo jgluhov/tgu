@@ -1,0 +1,9 @@
+@import '@styles';
+
+.home {
+  padding-top: 62px;
+}
+
+.homeTileText {
+  @include text(20px, var(--black), 29px, normal, 500);
+}
