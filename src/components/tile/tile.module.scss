@@ -4,15 +4,18 @@
   padding: 24px;
   @include size(100%);
   background-color: var(--white);
+  display: flex;
+  flex-direction: column;
 }
 
 .tileTitle {
-  @include text(16px, var(--white),  19px, normalm, 500);
-  color: var(--gray);
+  @include text(16px, var(--gray),  19px, normal, 500);
   text-transform: uppercase;
   margin-bottom: 16px;
+  height: 19px;
 }
 
 .tileContent {
+  @include text(20px, var(--black),  29px, normal, 500);
   background-color: var(--white);
 }

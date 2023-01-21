@@ -16,4 +16,5 @@
 
 .headerLogo {
   @include size(228px, 40px);
+  cursor: pointer;
 }

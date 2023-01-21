@@ -17,3 +17,8 @@
   width: $width;
   height: $height;
 }
+
+@mixin maxSize($maxWidth, $maxHeight: $width) {
+  max-width: $maxWidth;
+  max-height: $maxHeight;
+}

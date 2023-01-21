@@ -4,7 +4,7 @@ import clsx from 'clsx';
 interface LinkProps {
   to?: string;
   children: React.ReactNode;
-  className: string;
+  className?: string;
 }
 
 const Link = (props: LinkProps) => {
