@@ -1,16 +1,18 @@
 import Link from '@components/link/Link';
-import Tile from '@components/tile/Tile';
+import Tile from '@/components/tiles/components/tile/Tile';
 import Tiles from '@components/tiles/Tiles';
+import clsx from 'clsx';
 import { IStudent } from '../../interfaces/student.interface';
 import styles from './student-tiles.module.scss';
 
 interface IStudentTileListProps {
   student: IStudent;
+  className?: string;
 }
 
 const StudentTileList = (props: IStudentTileListProps) => {
   return (
-    <Tiles className={styles.tiles}>
+    <Tiles className={clsx(styles.tiles, props.className)}>
       <Tile className={styles.tile} key={1} title={'ФИО абитуриента'}>
         {props.student.name}
       </Tile>

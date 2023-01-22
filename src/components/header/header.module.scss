@@ -1,4 +1,4 @@
-@import '@styles';
+@import '@styles/mixins';
 
 .header {
   @include size(100%, 88px);

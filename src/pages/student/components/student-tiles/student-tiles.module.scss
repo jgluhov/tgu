@@ -1,12 +1,12 @@
-@import '@styles';
+@import '@styles/mixins';
 
 .tiles {
   display: grid;
-  row-gap: 0;
   grid-template-areas:
     "tile-1 tile-2 tile-3"
     "tile-4 tile-5 tile-5";
   height: 282px;
+  gap: 1px;
 }
 
 .tile {
