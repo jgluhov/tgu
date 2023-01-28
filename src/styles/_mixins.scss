@@ -1,6 +1,6 @@
 @mixin text(
   $fontSize: 16px,
-  $color: var(--black),
+  $color: var(--base-1),
   $lineHeight: 23px,
   $fontStyle: normal,
   $fontWeight: 400
@@ -21,4 +21,10 @@
 @mixin maxSize($maxWidth, $maxHeight: $width) {
   max-width: $maxWidth;
   max-height: $maxHeight;
+}
+
+@mixin center() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

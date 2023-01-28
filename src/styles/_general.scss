@@ -5,11 +5,6 @@ $font-family: 'Inter', serif;
 // Base Font for HTML
 $base-font-size: 14px;
 
-// Header Styles
-$header-color      : var(--black);
-$header-size       : rem(40px);
-$header-line-height: 1.25em;
-
 // Make type normal across browsers
 *, html, body {
   font-size: $base-font-size;

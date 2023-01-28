@@ -1,23 +1,19 @@
-import { lazy, Suspense } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import Header from './components/header/Header';
-
-const Home = lazy(() => import('./pages/home/Home'))
-const Student = lazy(() => import('./pages/student/Student'))
+import Curriculum from './pages/curriculum/Curriculum';
+import Home from './pages/home/Home';
+import NotFound from './pages/not-found/NotFound';
 
 function App() {
   return (
     <>
       <Header></Header>
-      <Router>
-        <Suspense fallback={<div>Loading...</div>}>
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/student/:studentId' element={<Student />} />
-          </Routes>
-        </Suspense>
-      </Router>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/curriculum/:enrolleeId' element={<Curriculum />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </>
   );
 }

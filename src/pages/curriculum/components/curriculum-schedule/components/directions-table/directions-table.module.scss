@@ -1,0 +1,23 @@
+@import '@styles/mixins';
+
+.directionsTable {
+  width: 288px;
+  margin-right: 16px;
+}
+
+.directionsTableSidebar {
+  width: 288px;
+}
+
+.directionsTableData {
+  border: 1px solid var(--second-2);
+  height: 173px;
+  min-width: 155px;
+  vertical-align: middle;
+  padding: 16px;
+}
+
+.directionsTableHeaderLast {
+  padding: 16px;
+  width: 50%;
+}

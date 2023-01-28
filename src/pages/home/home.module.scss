@@ -2,8 +2,13 @@
 
 .home {
   padding-top: 62px;
+  height: auto;
+}
+
+.homePage {
+  height: 100%;
 }
 
 .homeTileText {
-  @include text(20px, var(--black), 29px, normal, 500);
+  @include text(20px, var(--base-1), 29px, normal, 500);
 }

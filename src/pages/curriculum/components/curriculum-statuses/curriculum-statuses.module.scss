@@ -1,0 +1,35 @@
+@import '@styles/mixins';
+
+.curriculumStatuses {
+  display: flex;
+  height: 30px;
+}
+
+.curriculumStatus {
+  @include text(20px, var(--base-1), 29px, normal, 400);
+  display: flex;
+  align-items: center;
+
+  & + & {
+    margin-left: 40px;
+  }
+}
+
+.curriculumStatusBadge {
+  @include size(24px);
+  display: block;
+  margin-right: 8px;
+
+  &.preferred {
+    background-color: var(--preferred);
+  }
+  &.issued {
+    background-color: var(--issued);
+  }
+  &.created {
+    background-color: var(--created);
+  }
+  &.confirmed {
+    background-color: var(--confirmed);
+  }
+}

@@ -1,0 +1,15 @@
+@import '@styles/mixins';
+
+.notFound {
+  @include center();
+  height: 100%;
+}
+
+.notFoundText {
+  font-size: 152px;
+  height: 152px;
+}
+
+.notFoundPage {
+  height: calc(100% - 88px);
+}
