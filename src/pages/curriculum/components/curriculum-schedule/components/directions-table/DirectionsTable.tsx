@@ -14,20 +14,14 @@ const DirectionsTable = (props: IEnrolleeScheduleProps) => {
   const columns = React.useMemo(
     () => [
       {
-        Header: 'Курс',
+        Header: 'Точки приёма',
         columns: [{
-          Header: 'Семестр',
-          columns: [{
-            Header: 'Точки приема',
-            columns: [{
-              Header: 'Код профиля',
-              accessor: 'educationProfile'
-            }, {
-              Header: 'Наименование',
-              accessor: 'direction'
-            }]
+          Header: 'Код профиля',
+          accessor: 'educationProfile'
+        }, {
+          Header: 'Наименование',
+          accessor: 'direction'
         }]
-        }],
       }
     ],
     []
@@ -47,11 +41,12 @@ const DirectionsTable = (props: IEnrolleeScheduleProps) => {
   return (
     <table className={clsx(commonStyles.curriculumSchedule, styles.directionsTable)} {...getTableProps()}>
       <thead>
-        { headerGroups.map(headerGroup => (
+        { headerGroups.map((headerGroup, rowIndx) => (
           <tr className={commonStyles.curriculumScheduleHeaderRow} {...headerGroup.getHeaderGroupProps()}>
             { headerGroup.headers.map(column => (
                 <th className={clsx(
                   commonStyles.curriculumScheduleHeader,
+                  rowIndx === 0 && styles.directionsTableHeaderFirst,
                   !column.headers && styles.directionsTableHeaderLast)
                 } { ...column.getHeaderProps() }>
                   { column.render('Header')}
@@ -62,12 +57,15 @@ const DirectionsTable = (props: IEnrolleeScheduleProps) => {
         ))}
       </thead>
       <tbody {...getTableBodyProps()}>
-        { rows.map(row => {
+        { rows.map((row, rowIndx) => {
           prepareRow(row);
           return (
-            <tr {...row.getRowProps()}>
+            <tr className={clsx(rowIndx === 0 && styles.directionsTableHeaderFirst)} {...row.getRowProps()}>
               { row.cells.map(cell => (
-                  <td className={styles.directionsTableData} {...cell.getCellProps()}>
+                  <td className={clsx(
+                    styles.directionsTableData, rowIndx === 0 &&
+                    styles.directionsTableDataFirst)
+                  } {...cell.getCellProps()}>
                     { cell.render('Cell')}
                   </td>
                 )

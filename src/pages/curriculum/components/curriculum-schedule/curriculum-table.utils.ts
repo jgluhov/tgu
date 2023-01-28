@@ -35,7 +35,7 @@ export const getCurriculums = (
   directions: IEnrolleeDirection[],
   course: number,
   semester: number
-): string[] => {
+): IEnrolleeCurriculum[] => {
   let curriculums = directions
     .reduce((dates, d) => {
       let found = d.curriculums

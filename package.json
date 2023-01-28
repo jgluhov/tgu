@@ -13,9 +13,11 @@
     "axios": "^1.2.3",
     "clsx": "^1.2.1",
     "date-fns": "^2.29.3",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-base-table": "^1.13.2",
     "react-dom": "^18.2.0",
+    "react-indiana-drag-scroll": "^3.0.3-alpha",
     "react-router-dom": "^6.6.2",
     "react-scripts": "5.0.1",
     "react-table": "^7.8.0",
@@ -49,6 +51,7 @@
   },
   "devDependencies": {
     "@craco/craco": "^7.0.0",
+    "@types/lodash": "^4.14.191",
     "@types/react-redux": "^7.1.25",
     "@types/react-table": "^7.7.14",
     "node-sass-alias-importer": "^2.0.1"

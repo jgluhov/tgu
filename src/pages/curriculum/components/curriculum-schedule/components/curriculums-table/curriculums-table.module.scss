@@ -1,0 +1,16 @@
+@import '@styles/mixins';
+
+.curriculumsTableHeader {
+  text-align: center;
+}
+
+.curriculumsTableHeaderLast {
+  @include text(12px, var(--base-1), 17px, normal, 400);
+}
+
+.curriculumsTableData {
+  border: 1px solid var(--second-2);
+  min-width: 155px;
+  vertical-align: middle;
+  height: 222px;
+}

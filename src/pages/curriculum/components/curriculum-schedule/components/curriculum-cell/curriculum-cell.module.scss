@@ -1,0 +1,16 @@
+@import '@styles/colors';
+@import '@styles/mixins';
+
+.curriculumCell {
+  display: block;
+  padding: 16px;
+}
+
+.curriculumCellPreferred {
+  background-color: var(--preferred);
+}
+
+.curriculumCellLink {
+  @include text(12px, var(--blue-1), 17px, normal, 600);
+  text-decoration: underline;
+}
