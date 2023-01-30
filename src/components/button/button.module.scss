@@ -1,0 +1,22 @@
+@import '@styles/colors';
+@import '@styles/mixins';
+
+.button {
+  @include text(12px, var(--base-1), 17px, normal, 500);
+  box-shadow: rgb(45 35 66 / 40%) 0 2px 4px, rgb(45 35 66 / 30%) 0 7px 13px -3px, rgb(58 65 111 / 50%) 0 -3px 0 inset;
+  background-color: var(--base-2);
+  border-radius: 4px;
+  padding: 8px;
+  border: 0;
+  max-height: 33px;
+
+  &:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+}
+
+.buttonPrimary {
+  background-color: var(--blue-1);
+  @include text(12px, var(--second-2), 17px, normal, 500);
+}

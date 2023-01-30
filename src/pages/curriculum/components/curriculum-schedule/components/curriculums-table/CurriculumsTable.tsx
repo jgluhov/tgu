@@ -5,6 +5,7 @@ import clsx from 'clsx';
 import { format, parseISO } from 'date-fns';
 import { ru } from 'date-fns/locale';
 import { ScrollContainer } from 'react-indiana-drag-scroll';
+import 'react-tooltip/dist/react-tooltip.css'
 import 'react-indiana-drag-scroll/dist/style.css';
 
 import styles from './curriculums-table.module.scss';
@@ -85,7 +86,7 @@ const CurriculumsTable = (props: ICurriculumsTableProps) => {
             prepareRow(row);
             return (
               <tr {...row.getRowProps()}>
-                { row.cells.map((cell, indx) => (
+                { row.cells.map((cell) => (
                     <td className={clsx(
                       styles.curriculumsTableData,
                       rowIndx === 0 && styles.curriculumsTableDataFirst)

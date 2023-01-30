@@ -1,8 +1,9 @@
 $base-1: #202020;
-$second-1: #ffffff;
+$base-2: #ffffff;
 $second-2: #E6E6E6;
 $second-3: #BDBDBD;
 $blue-1: #0165FF;
+$yellow-1: #F2C94C;
 
 $bg-color: #f6f6f7;
 
@@ -14,10 +15,11 @@ $confirmed: #BFEA94;
 
 :root {
   --base-1: #{$base-1};
-  --second-1: #{$second-1};
+  --base-2: #{$base-2};
   --second-2: #{$second-2};
   --second-3: #{$second-3};
   --blue-1: #{$blue-1};
+  --yellow-1: #{$yellow-1};
 
   --bg-color: #{$bg-color};
 

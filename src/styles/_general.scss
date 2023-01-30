@@ -5,6 +5,10 @@ $font-family: 'Inter', serif;
 // Base Font for HTML
 $base-font-size: 14px;
 
+html {
+  overflow-x: hidden;
+}
+
 // Make type normal across browsers
 *, html, body {
   font-size: $base-font-size;

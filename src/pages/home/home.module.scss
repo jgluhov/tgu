@@ -1,14 +1,18 @@
 @import '@styles/mixins';
+@import '@styles/colors';
+@import '@styles/variables';
 
 .home {
-  padding-top: 62px;
   height: auto;
 }
 
 .homePage {
-  height: 100%;
+  @include center();
+  height: calc(100% - var(--header-height));
+  background-color: var(--yellow-1);
 }
 
-.homeTileText {
-  @include text(20px, var(--base-1), 29px, normal, 500);
+.homePageTile {
+  @include text(100px, var(--base-1), 137px, normal, 600);
+  height: 137px;
 }
