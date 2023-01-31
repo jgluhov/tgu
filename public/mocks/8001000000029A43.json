@@ -1,0 +1,1235 @@
+{
+    "id": 1,
+    "enrolleeId": "8001000000029A43",
+    "basicCurriculumId": "004481",
+    "basicCurriculumName": "45.03.02_02_Лингвистика_2022_очн (импорт)",
+    "fullName": "ПЕТЕНИНА ДАРЬЯ РУСЛАНОВНА",
+    "trajectory": "Поступление на традиционную форму обучения.",
+    "direction": "45.03.02 Лингвистика",
+    "educationProfile": "2 Перевод и межкультурная коммуникация",
+    "groupName": "ЛИНб-2202а",
+    "status": "preparing",
+    "enrolleeDisciplines": [{
+        "id": 1,
+        "name": "Акушерство",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 102,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 2,
+        "name": "Анатомия, физиология с патологией",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 216,
+        "mark": "хорошо"
+    }, {
+        "id": 3,
+        "name": "БЖ",
+        "type": "Дисциплина",
+        "zet": 3,
+        "hours": null,
+        "mark": "зачтено"
+    }, {
+        "id": 4,
+        "name": "Болезни зубов и полости рта",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 40,
+        "mark": "отлично"
+    }, {
+        "id": 5,
+        "name": "Болезни уха, горла, носа",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 40,
+        "mark": "отлично"
+    }, {
+        "id": 6,
+        "name": "Возрастная анатомия, физиология и гигиена",
+        "type": "Дисциплина",
+        "zet": 3,
+        "hours": null,
+        "mark": "зачтено"
+    }, {
+        "id": 7,
+        "name": "Гериатрия",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 40,
+        "mark": "хорошо"
+    }, {
+        "id": 8,
+        "name": "Гинекология",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 78,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 9,
+        "name": "Глазные болезни",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 40,
+        "mark": "хорошо"
+    }, {
+        "id": 10,
+        "name": "Иностранный язык",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 128,
+        "mark": "хорошо"
+    }, {
+        "id": 11,
+        "name": "Иностранный язык",
+        "type": "Дисциплина",
+        "zet": 4,
+        "hours": null,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 12,
+        "name": "Инфекционные болезни с эпидемиологией",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 140,
+        "mark": "отлично"
+    }, {
+        "id": 13,
+        "name": "Информатика",
+        "type": "Дисциплина",
+        "zet": 4,
+        "hours": null,
+        "mark": "зачтено"
+    }, {
+        "id": 14,
+        "name": "История (история России, всеобщая история)",
+        "type": "Дисциплина",
+        "zet": 3,
+        "hours": null,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 15,
+        "name": "Клиническая фармакология",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 68,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 16,
+        "name": "Кожные и венерологические болезни",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 60,
+        "mark": "хорошо"
+    }, {
+        "id": 17,
+        "name": "Культурология",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 34,
+        "mark": "хорошо"
+    }, {
+        "id": 18,
+        "name": "Математика",
+        "type": "Дисциплина",
+        "zet": 3,
+        "hours": null,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 19,
+        "name": "Математика и информатика",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 60,
+        "mark": "хорошо"
+    }, {
+        "id": 20,
+        "name": "Медицина катастроф",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 60,
+        "mark": "хорошо"
+    }, {
+        "id": 21,
+        "name": "Медицинская генетика",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 32,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 22,
+        "name": "Медицинское страхование",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 32,
+        "mark": "хорошо"
+    }, {
+        "id": 23,
+        "name": "Нервные болезни",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 60,
+        "mark": "хорошо"
+    }, {
+        "id": 24,
+        "name": "Образовательное право",
+        "type": "Дисциплина",
+        "zet": 3,
+        "hours": null,
+        "mark": "зачтено"
+    }, {
+        "id": 25,
+        "name": "Общая гигиена с основами экологии",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 60,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 26,
+        "name": "Ознакомительная ",
+        "type": "Практика",
+        "zet": null,
+        "hours": null,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 27,
+        "name": "Основы военной службы ",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 48,
+        "mark": "хорошо"
+    }, {
+        "id": 28,
+        "name": "Основы латинского языка с медицинской терминологией",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 40,
+        "mark": "хорошо"
+    }, {
+        "id": 29,
+        "name": "Основы микробиологии, вирусологии, иммунологии",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 72,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 30,
+        "name": "Основы права",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 32,
+        "mark": "хорошо"
+    }, {
+        "id": 31,
+        "name": "Основы проектной деятельности",
+        "type": "Дисциплина",
+        "zet": 4,
+        "hours": null,
+        "mark": "хорошо"
+    }, {
+        "id": 32,
+        "name": "Основы психологии",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 90,
+        "mark": "хорошо"
+    }, {
+        "id": 33,
+        "name": "Основы реабилитации, физиотерапия, ЛФК, массаж",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 80,
+        "mark": "хорошо"
+    }, {
+        "id": 34,
+        "name": "Основы сестринского дела",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 322,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 35,
+        "name": "Основы социологии и политологии",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 32,
+        "mark": "хорошо"
+    }, {
+        "id": 36,
+        "name": "Основы философии",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 58,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 37,
+        "name": "Основы экономики",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 38,
+        "mark": "хорошо"
+    }, {
+        "id": 38,
+        "name": "Основы экономики и финансовой грамотности",
+        "type": "Дисциплина",
+        "zet": 3,
+        "hours": null,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 39,
+        "name": "Особенности работы фельдшера в противотуберкулезном диспансере",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 32,
+        "mark": "хорошо"
+    }, {
+        "id": 40,
+        "name": "Патологическая анатомия и патологическая физиология",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 48,
+        "mark": "хорошо"
+    }, {
+        "id": 41,
+        "name": "Педагогика",
+        "type": "Дисциплина",
+        "zet": 4,
+        "hours": null,
+        "mark": "зачтено"
+    }, {
+        "id": 42,
+        "name": "Педиатрия с детскими  инфекциями",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 200,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 43,
+        "name": "Право",
+        "type": "Дисциплина",
+        "zet": 3,
+        "hours": null,
+        "mark": "зачтено"
+    }, {
+        "id": 44,
+        "name": "Практика по получению первичных профессиональных навыков ",
+        "type": "Практика",
+        "zet": null,
+        "hours": 2,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 45,
+        "name": "Практика по профилю специальности ",
+        "type": "Практика",
+        "zet": null,
+        "hours": 8,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 46,
+        "name": "Пропедевтика клинических дисциплин",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 52,
+        "mark": "хорошо"
+    }, {
+        "id": 47,
+        "name": "Психические болезни",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 40,
+        "mark": "хорошо"
+    }, {
+        "id": 48,
+        "name": "Психология",
+        "type": "Дисциплина",
+        "zet": 3,
+        "hours": null,
+        "mark": "зачтено"
+    }, {
+        "id": 49,
+        "name": "Реаниматология",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 40,
+        "mark": "хорошо"
+    }, {
+        "id": 50,
+        "name": "Религиоведение",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 32,
+        "mark": "хорошо"
+    }, {
+        "id": 51,
+        "name": "Русский язык и культура речи",
+        "type": "Дисциплина",
+        "zet": 3,
+        "hours": null,
+        "mark": "зачтено"
+    }, {
+        "id": 52,
+        "name": "СПИД, работа фельдшера с ВИЧ-инфицированными больными",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 32,
+        "mark": "хорошо"
+    }, {
+        "id": 53,
+        "name": "Синдромная патология и дифференциальная диагностика",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 100,
+        "mark": "хорошо"
+    }, {
+        "id": 54,
+        "name": "Социальная медицина. Организация и экономика здравоохранения",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 60,
+        "mark": "хорошо"
+    }, {
+        "id": 55,
+        "name": "Социокультурная коммуникация",
+        "type": "Дисциплина",
+        "zet": 3,
+        "hours": null,
+        "mark": "зачтено"
+    }, {
+        "id": 56,
+        "name": "Стажировка",
+        "type": "Практика",
+        "zet": null,
+        "hours": 6,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 57,
+        "name": "Тайм-менеджмент",
+        "type": "Дисциплина",
+        "zet": 3,
+        "hours": null,
+        "mark": "зачтено"
+    }, {
+        "id": 58,
+        "name": "Терапия",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 210,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 59,
+        "name": "Фармакология",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 88,
+        "mark": "хорошо"
+    }, {
+        "id": 60,
+        "name": "Физическая культура",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 280,
+        "mark": "хорошо"
+    }, {
+        "id": 61,
+        "name": "Философия",
+        "type": "Дисциплина",
+        "zet": 4,
+        "hours": null,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 62,
+        "name": "Хирургия",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 160,
+        "mark": "удовлетворительно"
+    }, {
+        "id": 63,
+        "name": "Этапы жизнедеятельности человека и медицинские услуги в разные возрастные периоды",
+        "type": "Дисциплина",
+        "zet": null,
+        "hours": 148,
+        "mark": "хорошо"
+    }],
+    "curriculumDisciplines": [{
+        "id": 1,
+        "name": "Физическая культура и спорт",
+        "enrolleeDiscipline": null,
+        "semester": 1,
+        "enrolleeSemester": null,
+        "zet": 1,
+        "hours": 36,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 2,
+        "name": "Информационные технологии в лингвистике 1",
+        "enrolleeDiscipline": null,
+        "semester": 2,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 3,
+        "name": "Устный перевод (немецкий язык) | Устный перевод (французский язык) | Практикум по межкультурной коммуникации",
+        "enrolleeDiscipline": null,
+        "semester": 8,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 4,
+        "name": "Подготовка и сдача государственного экзамена",
+        "enrolleeDiscipline": null,
+        "semester": 8,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "ГИА",
+        "mark": null
+    }, {
+        "id": 5,
+        "name": "Практический курс перевода первого иностранного языка 1",
+        "enrolleeDiscipline": null,
+        "semester": 4,
+        "enrolleeSemester": null,
+        "zet": 4,
+        "hours": 144,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 6,
+        "name": "Проектная деятельность 6",
+        "enrolleeDiscipline": null,
+        "semester": 6,
+        "enrolleeSemester": null,
+        "zet": 1,
+        "hours": 36,
+        "control": "Дифференцированный зачет",
+        "mark": null
+    }, {
+        "id": 7,
+        "name": "Проектная деятельность 1",
+        "enrolleeDiscipline": null,
+        "semester": 1,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Дифференцированный зачет",
+        "mark": null
+    }, {
+        "id": 8,
+        "name": "Основы языкознания 1",
+        "enrolleeDiscipline": null,
+        "semester": 2,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 9,
+        "name": "Перевод в СМИ | Общественно-политический перевод",
+        "enrolleeDiscipline": null,
+        "semester": 8,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 10,
+        "name": "Преддипломная практика",
+        "enrolleeDiscipline": null,
+        "semester": 8,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Дифференцированный зачет",
+        "mark": null
+    }, {
+        "id": 11,
+        "name": "Практический курс первого иностранного языка 2",
+        "enrolleeDiscipline": null,
+        "semester": 2,
+        "enrolleeSemester": null,
+        "zet": 13,
+        "hours": 468,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 12,
+        "name": "Практический курс второго иностранного языка 5",
+        "enrolleeDiscipline": null,
+        "semester": 6,
+        "enrolleeSemester": null,
+        "zet": 8,
+        "hours": 288,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 13,
+        "name": "Практикум по культуре речевого общения второго иностранного языка 2",
+        "enrolleeDiscipline": null,
+        "semester": 8,
+        "enrolleeSemester": null,
+        "zet": 4,
+        "hours": 144,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 14,
+        "name": "Теория и практика межкультурной коммуникации",
+        "enrolleeDiscipline": null,
+        "semester": 3,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 15,
+        "name": "Теория перевода 2",
+        "enrolleeDiscipline": null,
+        "semester": 6,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 16,
+        "name": "Элективные дисциплины по физической культуре и спорту",
+        "enrolleeDiscipline": null,
+        "semester": 4,
+        "enrolleeSemester": null,
+        "zet": 0,
+        "hours": 64,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 17,
+        "name": "Практический курс перевода первого иностранного языка 4",
+        "enrolleeDiscipline": null,
+        "semester": 7,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 18,
+        "name": "История и культура стран изучаемых языков | География и государственное устройство стран изучаемых языков",
+        "enrolleeDiscipline": null,
+        "semester": 4,
+        "enrolleeSemester": null,
+        "zet": 4,
+        "hours": 144,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 19,
+        "name": "История",
+        "enrolleeDiscipline": null,
+        "semester": 1,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 20,
+        "name": "Коммерческий перевод | Перевод деловой корреспонденции",
+        "enrolleeDiscipline": null,
+        "semester": 7,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 21,
+        "name": "Основы информационной культуры",
+        "enrolleeDiscipline": null,
+        "semester": 1,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 22,
+        "name": "Учебная практика (практика по получению первичных профессиональных умений и навыков)",
+        "enrolleeDiscipline": null,
+        "semester": 7,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Дифференцированный зачет",
+        "mark": null
+    }, {
+        "id": 23,
+        "name": "Практический курс первого иностранного языка 6",
+        "enrolleeDiscipline": null,
+        "semester": 6,
+        "enrolleeSemester": null,
+        "zet": 4,
+        "hours": 144,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 24,
+        "name": "Элективные дисциплины по физической культуре и спорту",
+        "enrolleeDiscipline": null,
+        "semester": 5,
+        "enrolleeSemester": null,
+        "zet": 0,
+        "hours": 64,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 25,
+        "name": "Элективные дисциплины по физической культуре и спорту",
+        "enrolleeDiscipline": null,
+        "semester": 6,
+        "enrolleeSemester": null,
+        "zet": 0,
+        "hours": 64,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 26,
+        "name": "Практикум по культуре речевого общения второго иностранного языка 1",
+        "enrolleeDiscipline": null,
+        "semester": 7,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 27,
+        "name": "Практический курс второго иностранного языка 2",
+        "enrolleeDiscipline": null,
+        "semester": 3,
+        "enrolleeSemester": null,
+        "zet": 9,
+        "hours": 324,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 28,
+        "name": "Иностранный язык",
+        "enrolleeDiscipline": null,
+        "semester": 1,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 29,
+        "name": "Правоведение",
+        "enrolleeDiscipline": null,
+        "semester": 1,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 30,
+        "name": "Практический курс второго иностранного языка 4",
+        "enrolleeDiscipline": null,
+        "semester": 5,
+        "enrolleeSemester": null,
+        "zet": 7,
+        "hours": 252,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 31,
+        "name": "Язык делового общения (английский) | Английский язык в сфере сервиса",
+        "enrolleeDiscipline": null,
+        "semester": 6,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 32,
+        "name": "Философия 2",
+        "enrolleeDiscipline": null,
+        "semester": 4,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 33,
+        "name": "Проектная деятельность 5",
+        "enrolleeDiscipline": null,
+        "semester": 5,
+        "enrolleeSemester": null,
+        "zet": 1,
+        "hours": 36,
+        "control": "Дифференцированный зачет",
+        "mark": null
+    }, {
+        "id": 34,
+        "name": "Элективные дисциплины по физической культуре и спорту",
+        "enrolleeDiscipline": null,
+        "semester": 2,
+        "enrolleeSemester": null,
+        "zet": 0,
+        "hours": 36,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 35,
+        "name": "Элективные дисциплины по физической культуре и спорту",
+        "enrolleeDiscipline": null,
+        "semester": 3,
+        "enrolleeSemester": null,
+        "zet": 0,
+        "hours": 64,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 36,
+        "name": "Практический курс первого иностранного языка 3",
+        "enrolleeDiscipline": null,
+        "semester": 3,
+        "enrolleeSemester": null,
+        "zet": 10,
+        "hours": 360,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 37,
+        "name": "Лексикология и терминоведение",
+        "enrolleeDiscipline": null,
+        "semester": 4,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 38,
+        "name": "Социолингвистика",
+        "enrolleeDiscipline": null,
+        "semester": 7,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 39,
+        "name": "Практический курс перевода первого иностранного языка 2",
+        "enrolleeDiscipline": null,
+        "semester": 5,
+        "enrolleeSemester": null,
+        "zet": 4,
+        "hours": 144,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 40,
+        "name": "Практикум по культуре речевого общения первого иностранного языка 1",
+        "enrolleeDiscipline": null,
+        "semester": 7,
+        "enrolleeSemester": null,
+        "zet": 4,
+        "hours": 144,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 41,
+        "name": "Практический курс первого иностранного языка 1",
+        "enrolleeDiscipline": null,
+        "semester": 1,
+        "enrolleeSemester": null,
+        "zet": 10,
+        "hours": 360,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 42,
+        "name": "Стилистика и основы редактирования 1",
+        "enrolleeDiscipline": null,
+        "semester": 6,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 43,
+        "name": "Основы языкознания 2",
+        "enrolleeDiscipline": null,
+        "semester": 3,
+        "enrolleeSemester": null,
+        "zet": 4,
+        "hours": 144,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 44,
+        "name": "История литературы первого иностранного языка | История литературы второго иностранного языка",
+        "enrolleeDiscipline": null,
+        "semester": 6,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 45,
+        "name": "Безопасность жизнедеятельности",
+        "enrolleeDiscipline": null,
+        "semester": 8,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 46,
+        "name": "Информационные технологии в лингвистике 2",
+        "enrolleeDiscipline": null,
+        "semester": 3,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 47,
+        "name": "Проектная деятельность 4",
+        "enrolleeDiscipline": null,
+        "semester": 4,
+        "enrolleeSemester": null,
+        "zet": 1,
+        "hours": 36,
+        "control": "Дифференцированный зачет",
+        "mark": null
+    }, {
+        "id": 48,
+        "name": "Проектная деятельность 2",
+        "enrolleeDiscipline": null,
+        "semester": 2,
+        "enrolleeSemester": null,
+        "zet": 1,
+        "hours": 36,
+        "control": "Дифференцированный зачет",
+        "mark": null
+    }, {
+        "id": 49,
+        "name": "Экономика",
+        "enrolleeDiscipline": null,
+        "semester": 2,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 50,
+        "name": "Практикум по культуре речевого общения первого иностранного языка 2",
+        "enrolleeDiscipline": null,
+        "semester": 8,
+        "enrolleeSemester": null,
+        "zet": 4,
+        "hours": 144,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 51,
+        "name": "Древние языки и культура",
+        "enrolleeDiscipline": null,
+        "semester": 1,
+        "enrolleeSemester": null,
+        "zet": 4,
+        "hours": 144,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 52,
+        "name": "Подготовка к процедуре защиты и процедура защиты выпускной квалификационной работы",
+        "enrolleeDiscipline": null,
+        "semester": 8,
+        "enrolleeSemester": null,
+        "zet": 6,
+        "hours": 216,
+        "control": "ГИА",
+        "mark": null
+    }, {
+        "id": 53,
+        "name": "Практический курс перевода второго иностранного языка 1",
+        "enrolleeDiscipline": null,
+        "semester": 5,
+        "enrolleeSemester": null,
+        "zet": 4,
+        "hours": 144,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 54,
+        "name": "Информационно-коммуникационные технологии в переводческой деятельности | Литературное редактирование текста перевода",
+        "enrolleeDiscipline": null,
+        "semester": 8,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 55,
+        "name": "Научно-технический перевод (автомобилестроение) | Научно-технический перевод (химия)",
+        "enrolleeDiscipline": null,
+        "semester": 7,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 56,
+        "name": "Практический курс перевода второго иностранного языка 3",
+        "enrolleeDiscipline": null,
+        "semester": 7,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 57,
+        "name": "Теория перевода 3",
+        "enrolleeDiscipline": null,
+        "semester": 7,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 58,
+        "name": "Теория перевода 1",
+        "enrolleeDiscipline": null,
+        "semester": 5,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 59,
+        "name": "Практический курс первого иностранного языка 4",
+        "enrolleeDiscipline": null,
+        "semester": 4,
+        "enrolleeSemester": null,
+        "zet": 9,
+        "hours": 324,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 60,
+        "name": "Теория перевода 2",
+        "enrolleeDiscipline": null,
+        "semester": 6,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Курсовая работа",
+        "mark": null
+    }, {
+        "id": 61,
+        "name": "Физическая культура и спорт",
+        "enrolleeDiscipline": null,
+        "semester": 2,
+        "enrolleeSemester": null,
+        "zet": 1,
+        "hours": 36,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 62,
+        "name": "Практический курс перевода первого иностранного языка 3",
+        "enrolleeDiscipline": null,
+        "semester": 6,
+        "enrolleeSemester": null,
+        "zet": 5,
+        "hours": 180,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 63,
+        "name": "Сравнительная типология языков | Основы теории второго иностранного языка",
+        "enrolleeDiscipline": null,
+        "semester": 5,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 64,
+        "name": "Перевод переговоров (первый иностранный язык) | Перевод переговоров (второй иностранный язык)",
+        "enrolleeDiscipline": null,
+        "semester": 8,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 65,
+        "name": "Стилистика и основы редактирования 2",
+        "enrolleeDiscipline": null,
+        "semester": 7,
+        "enrolleeSemester": null,
+        "zet": 1,
+        "hours": 36,
+        "control": "Курсовая работа",
+        "mark": null
+    }, {
+        "id": 66,
+        "name": "Русский язык и культура речи",
+        "enrolleeDiscipline": null,
+        "semester": 1,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 67,
+        "name": "Функциональные стили современного русского языка",
+        "enrolleeDiscipline": null,
+        "semester": 1,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 68,
+        "name": "Практический курс перевода второго иностранного языка 2",
+        "enrolleeDiscipline": null,
+        "semester": 6,
+        "enrolleeSemester": null,
+        "zet": 4,
+        "hours": 144,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 69,
+        "name": "Практический курс второго иностранного языка 1",
+        "enrolleeDiscipline": null,
+        "semester": 2,
+        "enrolleeSemester": null,
+        "zet": 10,
+        "hours": 360,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 70,
+        "name": "Производственная практика (практика по получению профессиональных умений и опыта профессиональной деятельности)",
+        "enrolleeDiscipline": null,
+        "semester": 7,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Дифференцированный зачет",
+        "mark": null
+    }, {
+        "id": 71,
+        "name": "Теоретическая грамматика",
+        "enrolleeDiscipline": null,
+        "semester": 5,
+        "enrolleeSemester": null,
+        "zet": 3,
+        "hours": 108,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 72,
+        "name": "Проектная деятельность 3",
+        "enrolleeDiscipline": null,
+        "semester": 3,
+        "enrolleeSemester": null,
+        "zet": 1,
+        "hours": 36,
+        "control": "Дифференцированный зачет",
+        "mark": null
+    }, {
+        "id": 73,
+        "name": "Практический курс первого иностранного языка 5",
+        "enrolleeDiscipline": null,
+        "semester": 5,
+        "enrolleeSemester": null,
+        "zet": 5,
+        "hours": 180,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 74,
+        "name": "Проектная деятельность 7",
+        "enrolleeDiscipline": null,
+        "semester": 7,
+        "enrolleeSemester": null,
+        "zet": 1,
+        "hours": 36,
+        "control": "Дифференцированный зачет",
+        "mark": null
+    }, {
+        "id": 75,
+        "name": "Стилистика и основы редактирования 2",
+        "enrolleeDiscipline": null,
+        "semester": 7,
+        "enrolleeSemester": null,
+        "zet": 1,
+        "hours": 36,
+        "control": "Экзамен",
+        "mark": null
+    }, {
+        "id": 76,
+        "name": "Практический курс второго иностранного языка 3",
+        "enrolleeDiscipline": null,
+        "semester": 4,
+        "enrolleeSemester": null,
+        "zet": 7,
+        "hours": 252,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 77,
+        "name": "Философия 1",
+        "enrolleeDiscipline": null,
+        "semester": 3,
+        "enrolleeSemester": null,
+        "zet": 2,
+        "hours": 72,
+        "control": "Зачет",
+        "mark": null
+    }, {
+        "id": 78,
+        "name": "Элективные дисциплины по физической культуре и спорту",
+        "enrolleeDiscipline": null,
+        "semester": 1,
+        "enrolleeSemester": null,
+        "zet": 0,
+        "hours": 36,
+        "control": "Зачет",
+        "mark": null
+    }]
+}

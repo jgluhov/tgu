@@ -1,4 +1,5 @@
 import { IEnrolleeGroup } from './enrollee-group.interface';
+import { IEnrolleeCurriculumInfo } from './enrollee-personal-curriculum.interface';
 
 export interface IEnrolleeCurriculum {
   id: string;
@@ -11,4 +12,5 @@ export interface IEnrolleeCurriculum {
   course: number;
   semester: number;
   groups: IEnrolleeGroup[];
+  curriculum: IEnrolleeCurriculumInfo;
 }

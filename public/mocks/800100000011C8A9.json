@@ -20,6 +20,11 @@
             "price": 121500,
             "course": 1,
             "semester": 8,
+            "curriculum": {
+                "id": 1,
+                "status": "preparing",
+                "group": "ЛИНб-2202а"
+            },
             "groups": [{
                 "name": "ЛИНб-2202а",
                 "studentCount": 14
@@ -37,6 +42,10 @@
             "price": 120200,
             "course": 3,
             "semester": 8,
+            "curriculum": {
+                "id": null,
+                "status": null
+            },
             "groups": [{
                 "name": "ЛИНб-2002а",
                 "studentCount": 5
@@ -47,13 +56,17 @@
         }, {
             "id": "004880",
             "name": "45.03.02_02_Лингвистика_2021_очн (импорт)",
-            "from": "2021-09-02T00:00:00+00:00",
+            "from": "2021-09-01T00:00:00+00:00",
             "to": "2025-08-31T00:00:00+00:00",
             "degree": "Бакалавр",
             "institute": "Гуманитарно-педагогический институт",
             "price": 121300,
             "course": 2,
             "semester": 8,
+            "curriculum": {
+                "id": null,
+                "status": null
+            },
             "groups": [{
                 "name": "ЛИНб-2102а",
                 "studentCount": 12
@@ -69,13 +82,17 @@
         "curriculums": [{
             "id": "004877",
             "name": "44.03.05_05__Педагогическое образование_2021_очн (импорт)",
-            "from": "2021-09-04T00:00:00+00:00",
+            "from": "2021-09-01T00:00:00+00:00",
             "to": "2026-08-31T00:00:00+00:00",
             "degree": "Бакалавр",
             "institute": "Гуманитарно-педагогический институт",
             "price": 121300,
             "course": 2,
             "semester": 10,
+            "curriculum": {
+                "id": null,
+                "status": null
+            },
             "groups": [{
                 "name": "ПОб-2105а",
                 "studentCount": 13
@@ -93,6 +110,10 @@
             "price": 121500,
             "course": 1,
             "semester": 10,
+            "curriculum": {
+                "id": null,
+                "status": null
+            },
             "groups": [{
                 "name": "ПОб-2205а",
                 "studentCount": 17
@@ -107,6 +128,10 @@
             "price": 120200,
             "course": 3,
             "semester": 10,
+            "curriculum": {
+                "id": null,
+                "status": null
+            },
             "groups": [{
                 "name": "ПОб-2005а",
                 "studentCount": 10
@@ -129,6 +154,10 @@
             "price": 120200,
             "course": 4,
             "semester": 10,
+            "curriculum": {
+                "id": null,
+                "status": null
+            },
             "groups": [{
                 "name": "ПОб-1904а",
                 "studentCount": 4
@@ -147,7 +176,11 @@
             "institute": "Гуманитарно-педагогический институт",
             "price": 121300,
             "course": 2,
-            "semester": 11,
+            "semester": 10,
+            "curriculum": {
+                "id": null,
+                "status": null
+            },
             "groups": [{
                 "name": "ПОб-2107а",
                 "studentCount": 7
@@ -167,6 +200,10 @@
             "price": 121500,
             "course": 1,
             "semester": 10,
+            "curriculum": {
+                "id": null,
+                "status": null
+            },
             "groups": [{
                 "name": "ПОб-2208а",
                 "studentCount": 10
@@ -186,6 +223,10 @@
             "price": 121500,
             "course": 1,
             "semester": 10,
+            "curriculum": {
+                "id": null,
+                "status": null
+            },
             "groups": [{
                 "name": "ПОб-2206а",
                 "studentCount": 12
@@ -200,6 +241,10 @@
             "price": 121300,
             "course": 2,
             "semester": 10,
+            "curriculum": {
+                "id": null,
+                "status": null
+            },
             "groups": [{
                 "name": "ПОб-2106а",
                 "studentCount": 9
@@ -219,6 +264,10 @@
             "price": 120200,
             "course": 4,
             "semester": 8,
+            "curriculum": {
+                "id": null,
+                "status": null
+            },
             "groups": [{
                 "name": "ЛИНб-1902а",
                 "studentCount": 14

@@ -1,0 +1,37 @@
+@import '@styles/mixins';
+@import '@styles/colors';
+
+.tiles {
+  display: grid;
+  gap: 1px;
+}
+
+.tile {
+  @for $i from 1 through 5 {
+    &:nth-child(#{$i}) {
+      grid-area: tile-#{$i};
+    }
+  }
+}
+
+.documentsTile {
+  grid-area: tile-6;
+}
+
+.link {
+  text-decoration: underline;
+  word-break: break-all;
+  & + & {
+    margin-left: 16px;
+  }
+}
+
+.preparing {
+  background-color: var(--issued);
+}
+.created {
+  background-color: var(--created);
+}
+.approved {
+  background-color: var(--confirmed);
+}
