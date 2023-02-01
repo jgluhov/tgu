@@ -1,7 +1,7 @@
 import { useStore } from '@/store';
 import styles from './curriculum-drafting.module.scss';
 import { useParams } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { CurriculumAPI } from '@/apis/CurriculumAPI';
 import EnrolleeInfo from '../enrollee-info/EnrolleeInfo';
 import SummaryTable from './components/summary-table/SummaryTable';
@@ -12,6 +12,7 @@ import CurriculumDisciplineTable from './components/curriculum-discipline-table/
 
 const CurriculumDrafting = () => {
   const { state, dispatch } = useStore();
+  const [ curriculum, setCurriculum ] = useState(null);
   const { curriculumId } = useParams<string>();
 
   useEffect(() => {
@@ -19,6 +20,12 @@ const CurriculumDrafting = () => {
       dispatch({ type: 'set-curriculum', payload: curriculum });
     })
   }, [curriculumId, dispatch]);
+
+  useEffect(() => {
+    setCurriculum(state.curriculum);
+  }, [state.curriculum])
+
+
 
   return (
     <>
@@ -35,20 +42,20 @@ const CurriculumDrafting = () => {
             className={styles.enrolleeInfo}
             tileClassName={styles.enrolleeInfoTile}
             enrollee={state.enrollee}
-            curriculum={state.curriculum} />
+            curriculum={curriculum} />
         </div>
       )}
-      { state.curriculum && (
+      { curriculum && (
         <div className={styles.contentWrapper}>
           <ScrollContainer mouseScroll={{ ignoreElements: 'section' }}>
             <div className={styles.content}>
               <div className={styles.tableWrapper}>
                 <h6 className={styles.tableTitle}>Дисциплины пройденный абитуриентом</h6>
-                <EnrolleeDisciplineTable disciplines={state.curriculum.enrolleeDisciplines} />
+                <EnrolleeDisciplineTable disciplines={curriculum.enrolleeDisciplines} />
               </div>
               <div className={styles.tableWrapper}>
-                <h6 className={styles.tableTitle}>Дисциплины БУПа № ${state.curriculum.id}</h6>
-                <CurriculumDisciplineTable disciplines={state.curriculum.curriculumDisciplines} />
+                <h6 className={styles.tableTitle}>Дисциплины БУПа № ${curriculum?.id}</h6>
+                <CurriculumDisciplineTable disciplines={curriculum.curriculumDisciplines} />
               </div>
             </div>
           </ScrollContainer>

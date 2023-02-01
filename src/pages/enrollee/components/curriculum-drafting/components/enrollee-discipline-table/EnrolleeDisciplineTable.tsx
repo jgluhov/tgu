@@ -13,7 +13,7 @@ const EnrolleeDisciplineTable = (props: IEnrolleeDisciplineTableProps) => {
       {
         id: 'enrollee-index',
         Header: '',
-        accessor: (d: IEnrolleeDiscipline) => props.disciplines.indexOf(d) + 1
+        accessor: (d: IEnrolleeDiscipline) => d?.id
       },
       {
         Header: 'Дисциплина',
@@ -36,7 +36,7 @@ const EnrolleeDisciplineTable = (props: IEnrolleeDisciplineTableProps) => {
         accessor: 'mark'
       }
     ] as Column[];
-  }, [props.disciplines]);
+  }, []);
 
   const data = React.useMemo(() => {
     return props.disciplines;
