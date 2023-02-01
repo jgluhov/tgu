@@ -3,8 +3,6 @@ import { useTable } from 'react-table';
 import clsx from 'clsx';
 import { format, parseISO } from 'date-fns';
 import { ru } from 'date-fns/locale';
-import 'react-tooltip/dist/react-tooltip.css'
-import 'react-indiana-drag-scroll/dist/style.css';
 import { ScrollContainer } from 'react-indiana-drag-scroll';
 
 import { IEnrolleeDirection } from '@/interfaces/enrollee-direction.interface';

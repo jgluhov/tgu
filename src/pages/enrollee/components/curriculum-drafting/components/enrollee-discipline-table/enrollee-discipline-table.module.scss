@@ -1,0 +1,55 @@
+@import '@styles/mixins';
+
+.wrapper {
+  margin-bottom: 24px;
+}
+
+.tableHeader {
+  @include text(12px, var(--base-1), 17px, normal, 600);
+  padding: 11.5px;
+  border: 1px solid var(--second-4);
+
+  &:first-child {
+    border: 0;
+  }
+
+  &:nth-child(2) {
+    width: 204px;
+  }
+
+  &:nth-child(3) {
+    width: 81px;
+  }
+
+  &:nth-child(4) {
+    width: 56px;
+  }
+  &:nth-child(5) {
+    width: 107px;
+  }
+
+  &:nth-child(6) {
+    width: 108px;
+  }
+}
+
+.tableData {
+  @include text(12px, var(--base-1), 17px, normal, 400);
+  border: 1px solid var(--second-4);
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+  height: 40px;
+
+  &:first-child {
+    width: 44px;
+  }
+
+  &:nth-child(2) {
+    text-align: left;
+  }
+
+  &:last-child {
+    text-transform: capitalize;
+  }
+}

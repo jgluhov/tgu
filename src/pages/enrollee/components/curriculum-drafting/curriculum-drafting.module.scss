@@ -1,8 +1,65 @@
-.curriculumDraftingEnrolleeInfo {
+@import '@styles/mixins';
+@import '@styles/colors';
+
+.summary {
+  margin: 0 24px 12px 0;
+}
+
+.summaryTable {
+  margin-bottom: 16px;
+  min-width: 364px;
+}
+
+.enrolleeInfo {
   max-width: 836px;
   margin-bottom: 48px;
   grid-template-areas:
     "tile-1 tile-2"
     "tile-4 tile-5"
     "tile-3 tile-6";
+}
+
+.enrolleeInfoTile {
+  min-height: 174px;
+}
+
+.header {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.actions {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 16px;
+}
+
+.actionButton {
+  height: 49px;
+  max-height: 49px;
+}
+
+.content {
+  display: flex;
+  cursor: auto;
+}
+
+.contentWrapper {
+  background-color: var(--base-2);
+  padding: 0 32px 32px;
+}
+
+.tableWrapper {
+  display: flex;
+  flex-direction: column;
+
+  & + & {
+    margin-left: 24px;
+  }
+}
+
+.tableTitle {
+  @include text(12px, var(--base-1), 17px, normal, 600);
+  padding: 16.5px 0;
 }

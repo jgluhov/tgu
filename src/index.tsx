@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '@styles/index.scss'
-
+import 'react-tooltip/dist/react-tooltip.css'
+import 'react-indiana-drag-scroll/dist/style.css';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';

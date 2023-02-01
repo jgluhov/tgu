@@ -1,0 +1,21 @@
+@import '@styles/mixins';
+
+.table {
+}
+
+.tableData {
+  @include text(12px, var(--base-1), 17px, normal, 400);
+  padding: 16px 12px;
+  background-color: var(--base-2);
+  border: 1px solid var(--second-4);
+  height: 49px;
+
+  &:nth-child(2) {
+    min-width: 63px;
+    text-align: right;
+  }
+}
+
+.tableDataTotal {
+  background-color: var(--bg-color);
+}
