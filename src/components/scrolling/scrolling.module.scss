@@ -1,0 +1,6 @@
+@import '@styles/mixins';
+
+.scrolling {
+  @include size(100vw, 100vh);
+  overflow: auto;
+}

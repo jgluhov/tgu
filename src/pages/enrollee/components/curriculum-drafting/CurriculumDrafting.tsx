@@ -9,8 +9,6 @@ import Button from '@/components/button/Button';
 import { ScrollContainer } from 'react-indiana-drag-scroll';
 import EnrolleeDisciplineTable from './components/enrollee-discipline-table/EnrolleeDisciplineTable';
 import CurriculumDisciplineTable from './components/curriculum-discipline-table/CurriculumDisciplineTable';
-import { DndProvider } from 'react-dnd'
-import { HTML5Backend } from 'react-dnd-html5-backend'
 
 const CurriculumDrafting = () => {
   const { state, dispatch } = useStore();
@@ -49,20 +47,18 @@ const CurriculumDrafting = () => {
       )}
       { curriculum && (
         <div className={styles.contentWrapper}>
-          <DndProvider backend={HTML5Backend}>
-            <ScrollContainer mouseScroll={{ ignoreElements: 'section' }}>
-              <div className={styles.content}>
-                <div className={styles.tableWrapper}>
-                  <h6 className={styles.tableTitle}>Дисциплины пройденный абитуриентом</h6>
-                  <EnrolleeDisciplineTable disciplines={curriculum.enrolleeDisciplines} />
-                </div>
-                <div className={styles.tableWrapper}>
-                  <h6 className={styles.tableTitle}>Дисциплины БУПа № ${curriculum?.id}</h6>
-                  <CurriculumDisciplineTable disciplines={curriculum.curriculumDisciplines} />
-                </div>
+          <ScrollContainer mouseScroll={{ ignoreElements: 'section' }}>
+            <div className={styles.content}>
+              <div className={styles.tableWrapper}>
+                <h6 className={styles.tableTitle}>Дисциплины пройденный абитуриентом</h6>
+                <EnrolleeDisciplineTable disciplines={curriculum.enrolleeDisciplines} />
               </div>
-            </ScrollContainer>
-          </DndProvider>
+              <div className={styles.tableWrapper}>
+                <h6 className={styles.tableTitle}>Дисциплины БУПа № ${curriculum?.id}</h6>
+                <CurriculumDisciplineTable disciplines={curriculum.curriculumDisciplines} />
+              </div>
+            </div>
+          </ScrollContainer>
         </div>
       )}
     </>
