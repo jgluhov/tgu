@@ -1,0 +1,13 @@
+@import '@styles/colors';
+
+.resetCell {
+  transition: all 0.3s ease-in-out;
+}
+
+.resetCellForbidden {
+  background-color: var(--red-1);
+}
+
+.resetCellAllowed {
+  background-color: var(--green-1);
+}

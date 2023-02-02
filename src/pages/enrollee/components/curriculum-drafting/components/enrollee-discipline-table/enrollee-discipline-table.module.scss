@@ -43,6 +43,8 @@
 
   &:first-child {
     width: 44px;
+    min-width: 44px;
+    padding: 0;
   }
 
   &:nth-child(2) {

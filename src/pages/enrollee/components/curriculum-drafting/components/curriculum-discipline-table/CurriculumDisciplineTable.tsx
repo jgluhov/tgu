@@ -2,18 +2,25 @@ import { ICurriculumDiscipline } from '@/interfaces/curriculum-discipline.interf
 import styles from './curriculum-discipline-table.module.scss';
 import React from 'react';
 import { Column, useTable } from 'react-table';
+import ResetCell from './components/reset-cell/ResetCell';
+import { IEnrolleeDiscipline } from '@/interfaces/enrollee-discipline';
 
 interface ICurriculumDisciplineTableProps {
   disciplines: ICurriculumDiscipline[];
 }
 
 const CurriculumDisciplineTable = (props: ICurriculumDisciplineTableProps) => {
+  const handleDrop = React.useCallback((enrolleeDiscipline: IEnrolleeDiscipline, curriculumDiscipline: ICurriculumDiscipline) => {
+    debugger
+  }, [])
+
   const columns = React.useMemo(() => {
     return [
       {
         id: 'reset-discipline-id',
         Header: 'Чем пере-зачтено',
-        accessor: (d: ICurriculumDiscipline) => d?.enrolleeDiscipline?.id
+        Cell: ResetCell,
+        accessor: (d: ICurriculumDiscipline) => ({ discipline: d, onDrop: handleDrop })
       },
       {
         Header: 'Дисциплина по плану',

@@ -1,0 +1,14 @@
+@import '@styles/mixins';
+
+.indexCell {
+  @include size(100%);
+  @include center();
+  padding: 8px;
+  opacity: 1;
+  cursor: move;
+  transition: all 0.3 ease-in-out;
+}
+
+.indexCellDragging {
+  opacity: 0.5;
+}

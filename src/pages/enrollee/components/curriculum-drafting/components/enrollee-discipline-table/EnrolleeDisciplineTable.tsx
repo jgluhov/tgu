@@ -1,7 +1,9 @@
-import { IEnrolleeDiscipline } from '@/interfaces/enrollee-discipline';
-import styles from './enrollee-discipline-table.module.scss';
 import React from 'react';
 import { Column, useTable } from 'react-table';
+
+import { IEnrolleeDiscipline } from '@/interfaces/enrollee-discipline';
+import styles from './enrollee-discipline-table.module.scss';
+import IndexCell from './components/index-cell/IndexCell';
 
 interface IEnrolleeDisciplineTableProps {
   disciplines: IEnrolleeDiscipline[];
@@ -11,9 +13,10 @@ const EnrolleeDisciplineTable = (props: IEnrolleeDisciplineTableProps) => {
   const columns = React.useMemo(() => {
     return [
       {
-        id: 'enrollee-index',
+        id: 'index',
         Header: '',
-        accessor: (d: IEnrolleeDiscipline) => d?.id
+        Cell: IndexCell,
+        accessor: (d: IEnrolleeDiscipline) => d
       },
       {
         Header: 'Дисциплина',
