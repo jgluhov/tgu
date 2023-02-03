@@ -1,7 +1,6 @@
 import React from 'react';
 import { Column, useTable } from 'react-table';
-
-import { IEnrolleeDiscipline } from '@/interfaces/enrollee-discipline';
+import { IEnrolleeDiscipline } from '@/interfaces/enrollee-discipline.interface';
 import styles from './enrollee-discipline-table.module.scss';
 import IndexCell from './components/index-cell/IndexCell';
 

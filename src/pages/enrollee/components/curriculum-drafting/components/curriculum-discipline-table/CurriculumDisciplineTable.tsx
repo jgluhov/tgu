@@ -1,16 +1,28 @@
-import { ICurriculumDiscipline } from '@/interfaces/curriculum-discipline.interface';
-import styles from './curriculum-discipline-table.module.scss';
 import React from 'react';
 import { Column, useTable } from 'react-table';
+import SelectCell from './components/select-cell/SelectCell';
+import styles from './curriculum-discipline-table.module.scss';
 import ResetCell from './components/reset-cell/ResetCell';
-import { IEnrolleeDiscipline } from '@/interfaces/enrollee-discipline';
+import { ICurriculumDiscipline } from '@/interfaces/curriculum-discipline.interface';
+import { IEnrolleeDiscipline } from '@/interfaces/enrollee-discipline.interface';
+import { DisciplineMarkType } from '@/constants/discipline-mark-type';
+
 
 interface ICurriculumDisciplineTableProps {
   disciplines: ICurriculumDiscipline[];
   onDrop(enrolleeDiscipline: IEnrolleeDiscipline, curriculumDiscipline: ICurriculumDiscipline): void;
 }
 
+const disciplineMarkOptions = [
+  { value: DisciplineMarkType.Passed as string, label: DisciplineMarkType.Passed },
+  { value: DisciplineMarkType.Excellent, label: DisciplineMarkType.Excellent },
+  { value: DisciplineMarkType.Good, label: DisciplineMarkType.Good },
+  { value: DisciplineMarkType.Satisfactory, label: DisciplineMarkType.Satisfactory }
+];
+
 const CurriculumDisciplineTable = ({ onDrop, disciplines }: ICurriculumDisciplineTableProps) => {
+  const ref = React.useRef();
+
   const columns = React.useMemo(() => {
     return [
       {
@@ -45,11 +57,13 @@ const CurriculumDisciplineTable = ({ onDrop, disciplines }: ICurriculumDisciplin
       },
       {
         Header: 'Контроль',
-        accessor: 'control'
+        accessor: 'control',
       },
       {
         Header: 'Оценка',
-        accessor: 'mark'
+        id: 'curriculum-mark',
+        accessor: (d: ICurriculumDiscipline) => ({ value: d.mark, id: d.id, options: disciplineMarkOptions }),
+        Cell: SelectCell,
       },
       {
         Header: 'ЗЕТ в нагрузку',
@@ -78,7 +92,7 @@ const CurriculumDisciplineTable = ({ onDrop, disciplines }: ICurriculumDisciplin
   })
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} ref={ref}>
       <table {...getTableProps()}>
         <thead>
           { headerGroups.map((headerGroup) => {

@@ -1,4 +1,4 @@
-import { IEnrolleeDiscipline } from './enrollee-discipline';
+import { IEnrolleeDiscipline } from './enrollee-discipline.interface';
 import { ICurriculumDiscipline } from './curriculum-discipline.interface';
 import { CurriculumStatus } from '@/constants/curriculum-status';
 

@@ -1,0 +1,8 @@
+@import '@styles/mixins';
+
+.selectCell {
+  @include size(150px, 100%);
+  @include center();
+  padding: 11.5px 8px;
+  min-height: 53px;
+}

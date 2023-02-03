@@ -1,9 +1,8 @@
 import { useDrag } from 'react-dnd';
 import clsx from 'clsx';
-
+import { IEnrolleeDiscipline } from '@/interfaces/enrollee-discipline.interface';
 import styles from './index-cell.module.scss';
 import { ItemTypes } from '../../../../constants/item-types.enum';
-import { IEnrolleeDiscipline } from '@/interfaces/enrollee-discipline';
 
 interface IEnrolleeDisciplineIndexCellProps {
   value: IEnrolleeDiscipline;

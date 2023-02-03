@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './summary-table.module.scss';
 import { Column, useTable } from 'react-table';
 import clsx from 'clsx';
+import styles from './summary-table.module.scss';
 
 interface ISummaryTableProps {
   className?: string;

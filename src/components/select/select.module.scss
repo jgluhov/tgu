@@ -1,0 +1,34 @@
+@import '@styles/mixins';
+
+.container {
+  @include size(100%, 30px);
+}
+
+.indicatorSeparator {
+  margin-top: 0 !important;
+}
+
+.dropdownIndicator {
+  padding: 8px 4px;
+}
+
+.control {
+  min-height: 30px !important;
+  @include size(100%, 30px)
+}
+
+.singleValue {
+  align-items: center;
+  display: flex;
+}
+
+.menu {
+  margin-top: -4px !important;
+}
+
+.menuList {
+  height: auto;
+  background-color: var(--base-2);
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
