@@ -6,6 +6,7 @@ import { EnrolleeAPI } from '@/apis/EnrolleeAPI';
 
 import styles from './enrollee.module.scss';
 import { useStore } from '@/store';
+import { IEnrollee } from '@/interfaces/enrollee.interface';
 
 
 const Enrollee = () => {
@@ -13,7 +14,7 @@ const Enrollee = () => {
   const { enrolleeId } = useParams<string>();
 
   useEffect(() => {
-    EnrolleeAPI.get(enrolleeId).then(enrollee => {
+    EnrolleeAPI.get(enrolleeId).then((enrollee: IEnrollee) => {
       dispatch({ type: 'set-enrollee', payload: enrollee });
     })
   }, [enrolleeId, dispatch]);

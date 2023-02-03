@@ -12,6 +12,7 @@ import CurriculumDisciplineTable from './components/curriculum-discipline-table/
 import { IEnrolleeDiscipline } from '@/interfaces/enrollee-discipline';
 import { ICurriculumDiscipline } from '@/interfaces/curriculum-discipline.interface';
 import { IPersonalCurriculum } from '@/interfaces/personal-curriculum.interface';
+import { setEnrolleeDiscipline } from './curriculum-drafting.utils';
 
 
 const CurriculumDrafting = () => {
@@ -33,21 +34,11 @@ const CurriculumDrafting = () => {
     enrolleeDiscipline: IEnrolleeDiscipline,
     curriculumDiscipline: ICurriculumDiscipline
   ) => {
-    const foundIndex = curriculum.curriculumDisciplines
-      .findIndex(discipline => discipline.id === curriculumDiscipline.id);
-
-    const changedCurriculum: IPersonalCurriculum = {
-      ...curriculum,
-      curriculumDisciplines: [
-        ...curriculum.curriculumDisciplines.slice(0, foundIndex),
-        {
-          ...curriculumDiscipline,
-          enrolleeDiscipline
-        },
-        ...curriculum.curriculumDisciplines.slice(foundIndex + 1)
-      ]
-    }
-
+    const changedCurriculum = setEnrolleeDiscipline(
+      curriculum,
+      enrolleeDiscipline,
+      curriculumDiscipline
+    );
     setCurriculum(changedCurriculum);
   }, [curriculum])
 
