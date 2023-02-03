@@ -78,7 +78,7 @@ const CurriculumDrafting = () => {
                 <EnrolleeDisciplineTable disciplines={curriculum.enrolleeDisciplines} />
               </div>
               <div className={styles.tableWrapper}>
-                <h6 className={styles.tableTitle}>Дисциплины БУПа № ${curriculum?.id}</h6>
+                <h6 className={styles.tableTitle}>Дисциплины БУПа №{curriculum?.id}</h6>
                 <CurriculumDisciplineTable disciplines={curriculum.curriculumDisciplines} onDrop={handleDrop} />
               </div>
             </div>
