@@ -9,10 +9,4 @@
 .homePage {
   @include center();
   height: calc(100% - var(--header-height));
-  background-color: var(--yellow-1);
-}
-
-.homePageTile {
-  @include text(100px, var(--base-1), 137px, normal, 600);
-  height: 137px;
 }

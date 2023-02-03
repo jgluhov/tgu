@@ -7,20 +7,17 @@ import { IEnrolleeDiscipline } from '@/interfaces/enrollee-discipline';
 
 interface ICurriculumDisciplineTableProps {
   disciplines: ICurriculumDiscipline[];
+  onDrop(enrolleeDiscipline: IEnrolleeDiscipline, curriculumDiscipline: ICurriculumDiscipline): void;
 }
 
-const CurriculumDisciplineTable = (props: ICurriculumDisciplineTableProps) => {
-  const handleDrop = React.useCallback((enrolleeDiscipline: IEnrolleeDiscipline, curriculumDiscipline: ICurriculumDiscipline) => {
-    debugger
-  }, [])
-
+const CurriculumDisciplineTable = ({ onDrop, disciplines }: ICurriculumDisciplineTableProps) => {
   const columns = React.useMemo(() => {
     return [
       {
         id: 'reset-discipline-id',
         Header: 'Чем пере-зачтено',
         Cell: ResetCell,
-        accessor: (d: ICurriculumDiscipline) => ({ discipline: d, onDrop: handleDrop })
+        accessor: (d: ICurriculumDiscipline) => ({ discipline: d, onDrop: onDrop })
       },
       {
         Header: 'Дисциплина по плану',
@@ -63,11 +60,11 @@ const CurriculumDisciplineTable = (props: ICurriculumDisciplineTableProps) => {
         accessor: 'year'
       }
     ] as Column[];
-  }, []);
+  }, [onDrop]);
 
   const data = React.useMemo(() => {
-    return props.disciplines;
-  }, [props.disciplines]);
+    return disciplines;
+  }, [disciplines]);
 
   const {
     getTableProps,

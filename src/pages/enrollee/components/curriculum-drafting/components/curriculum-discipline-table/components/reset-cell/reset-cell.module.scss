@@ -1,6 +1,8 @@
 @import '@styles/colors';
+@import '@styles/mixins';
 
 .resetCell {
+  @include center();
   transition: all 0.3s ease-in-out;
 }
 

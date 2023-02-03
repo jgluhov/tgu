@@ -7,17 +7,13 @@ import clsx from 'clsx';
 
 interface IResetCellProps {
   value: {
-    onDrop(discipline: IEnrolleeDiscipline): void,
+    onDrop(enrolleeDiscipline: IEnrolleeDiscipline, curriculumDiscipline: ICurriculumDiscipline): void;
     discipline: ICurriculumDiscipline
   },
 }
 
 const moreThen = (percent: number) =>
-  (enrolleeHours: number, curriculumHours: number) => {
-    debugger
-    console.log('(enrolleeHours / (curriculumHours / 100))', (enrolleeHours / (curriculumHours / 100)))
-    return (enrolleeHours / (curriculumHours / 100)) > percent;
-  }
+  (enrolleeHours: number, curriculumHours: number) => (enrolleeHours / (curriculumHours / 100)) > percent;
 
 const moreThen80 = moreThen(80);
 
@@ -25,7 +21,7 @@ const ResetCell = (props: IResetCellProps) => {
   const [{ forbidden, allowed }, dropRef] = useDrop({
     accept: ItemTypes.EnrolleeDiscipline,
     canDrop: (item: IEnrolleeDiscipline) => moreThen80(item.hours, props.value.discipline.hours),
-    drop: (item: IEnrolleeDiscipline) => props.value.onDrop(item),
+    drop: (item: IEnrolleeDiscipline) => props.value.onDrop(item, props.value.discipline),
     collect: (monitor: DropTargetMonitor) => ({
       isOver: monitor.isOver({shallow: true}),
       canDrop: monitor.canDrop(),
